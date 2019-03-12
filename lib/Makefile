@@ -4,3 +4,5 @@ all:
 clean:
 	rm -rf */*.pyc
 	rm -rf */*.so
+	rm -rf nms/gpu_nms.cpp
+	rm -rf nms/cpu_nms.c
